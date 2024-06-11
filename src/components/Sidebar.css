@@ -1,0 +1,58 @@
+/* src/components/Sidebar.css */
+.drawer {
+    width: 240px;
+    flex-shrink: 0;
+  }
+  
+  .drawer .MuiDrawer-paper {
+    width: 240px;
+    box-sizing: 'border-box';
+    background-color: #1a237e; /* Dark Blue Background */
+  }
+  
+  .drawer-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .drawer-title {
+    padding: 16px;
+    text-align: center;
+    background-color: #283593;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .icon {
+    color: white;
+  }
+  
+  .list-text {
+    color: white;
+  }
+  
+  .check-icon {
+    color: blue;
+    margin-left: auto;
+  }
+  
+  .online-text {
+    padding-left: 64px;
+    color: green;
+  }
+  
+  .menu-list {
+    flex-grow: 1;
+  }
+  
+  .nested-list-item {
+    padding-left: 32px;
+  }
+  
